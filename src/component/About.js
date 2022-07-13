@@ -14,12 +14,9 @@ import {
 export default function() {
     return (
         <div className="about">
-            <h1 className="contentTitle">ABOUT ME</h1>
-            <div>
-                <div style={{display:"inline-block", textAlign:'center' }}>
-                    <img style={{display:'inline-block', width:'380px', minWidth:'15%', minHeight:'15%', marginRight:'50px', borderRadius:'30px'}} src="./saewon.jpg"></img>
-                </div>
-                <div style={{display:"inline-block"}}>
+            <h1 className="contentTitle" id="aboutme">ABOUT ME</h1>
+            <div style={{width:'90%'}}>
+                
                     <h1>디테일은 퀄리티다</h1>
                     <p>안녕하세요 저는 되게 멋진 사람입니다</p>
                     <p>저는 정말 멋진 인생을 살아왔습니다 그래서 제가 자랑스럽습니다</p>
@@ -27,15 +24,11 @@ export default function() {
                     <p>저는 부산 영도구 동삼1동에 살고있습니다</p>
                     <bold>주소 : 부산광역시 영도구</bold>
                     <bold>이메일 : tv9310@naver.com</bold>
-                    <br>
-                    </br>
-                    <br></br><br></br>
-                </div>
             </div>
-            <h1 className="contentTitle">SKILLS</h1>
+            <h1 className="contentTitle" id="skills">SKILLS</h1>
                 <div style={{width:'80%'}}>
                     <div className='skill'>
-                        <Html5 color="#E34F26" size={80} />
+                        <Html5 color="#E34F26" size={100} />
                         <p>HTML</p>
                     </div>
                     <div className='skill'>
@@ -51,7 +44,7 @@ export default function() {
                         <p>ReactJs</p>
                     </div>
                     <div className='skill'>
-                    <Redux color="#764ABC" size={100} />
+                        <Redux color="#764ABC" size={100} />
                         <p>Redux</p>
                     </div>
                     <div className='skill'>
@@ -64,7 +57,7 @@ export default function() {
                     </div>
                 </div>
 
-            <h1 className="contentTitle">PortFolio</h1>
+            <h1 className="contentTitle" id="portfolio">PortFolio</h1>
 
             <div>
                 <article>

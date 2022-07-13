@@ -24,7 +24,7 @@ function App() {
       console.log(result.data())
       setData(result.data().friend_count);
     })
-  }, [])
+  }, []);
 
   return (
     <div>
@@ -35,7 +35,7 @@ function App() {
       <h2>{data}</h2>
        */}
        <br></br>
-       
+
     </div>
   );
 }

@@ -1,18 +1,20 @@
 export default function(props) {
     return (
         <header>
-            <h1>DongHaey</h1>
+            <h1 style={{paddingLeft:'15px'}}>DongHaey</h1>
+            <div style={{paddingRight:'15px'}}>
             <ul>
                 <li>
-                <button>Aboutme</button>
+                    <a href="#aboutme">aboutme</a>
                 </li>
                 <li>
-                    <button>skills</button>
+                    <a href="#skills">skills</a>
                 </li>
                 <li>
-                    <button>PortFolio</button>
+                    <a href="#portfolio">portfolio</a>
                 </li>
             </ul>
+            </div>
         </header>
     )
 }

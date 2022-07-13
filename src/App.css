@@ -1,5 +1,4 @@
 header {
-  text-align: center;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -16,10 +15,12 @@ li {
   margin-inline: 5px;
 }
 
-button {
-  width:100px;
-  height:40px;
-  border-radius: 10px;
+header a {
+  text-align: center;
+  text-decoration: none;
+  /* background-color: deepskyblue; */
+  padding:3px;
+  color:black;
   border: 0;
 }
 
@@ -31,7 +32,7 @@ button {
   justify-content: center;
   text-align: center;
   width:100%;
-  height:500px;
+  height:550px;
   background-size:cover;
   background-repeat: no-repeat;
   background-image: url('https://t1.daumcdn.net/news/202204/12/hankooki/20220412130005556fzld.jpg');
@@ -39,19 +40,19 @@ button {
 
 .good .contentTitle {
   color:white;
-  font-size:60px;
+  font-size:50px;
   margin-block: 30px;
 }
 
 .good hr {
-  width:200px;
-  height:25px;
+  width:300px;
+  height:10px;
   background-color: orange;
   border:0
 }
 
 .good h2 {
-  font-size: 60px;
+  font-size: 40px;
   color: white;
   margin-block: 30px;
 }
