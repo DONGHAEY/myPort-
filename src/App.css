@@ -72,13 +72,37 @@ button {
   text-align: center;
 }
 
+article {
+  display:inline-block;
+  background-color:whitesmoke; 
+  width:300px;
+  height:300px;
+  border-radius:30px;
+  margin:15px
+}
+article > img {
+  width:280px;
+  height:50%;
+}
+
 .about .contentTitle {
   font-size: 50px;
   margin-top: 100px;
   margin-bottom: 50px;
 }
 
+.githubButton {
+  background-color:black;
+  color:white;
+  width:150px;
+}
 
+
+
+.skill {
+  display:inline-block;
+  padding-inline:25px;
+}
 
 * {
   text-align: center;

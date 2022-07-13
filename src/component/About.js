@@ -29,71 +29,67 @@ export default function() {
                     <bold>이메일 : tv9310@naver.com</bold>
                     <br>
                     </br>
-                    <br></br><br></br><br></br>
+                    <br></br><br></br>
                 </div>
             </div>
-            <h1 className="contentTitle">
-                SKILLS
-            </h1>
-
+            <h1 className="contentTitle">SKILLS</h1>
                 <div style={{width:'80%'}}>
-                    <div style={{display:'inline-block', paddingInline:'25px'}}>
+                    <div className='skill'>
                         <Html5 color="#E34F26" size={80} />
                         <p>HTML</p>
                     </div>
-                    <div style={{display:'inline-block', paddingInline:'25px'}}>
-                    <Javascript color="#F7DF1E" size={80} />
+                    <div className='skill'>
+                    <Javascript color="#F7DF1E" size={100} />
                         <p>JS</p>
                     </div>
-                    <div style={{display:'inline-block', paddingInline:'25px'}}>
-                    <CssThree color="#1572B6" size={80} />
+                    <div className='skill'>
+                    <CssThree color="#1572B6" size={100} />
                         <p>CSS</p>
                     </div>
-                    <div style={{display:'inline-block', paddingInline:'25px'}}>
-                        <ReactJs color="#61DAFB" size={80} />
+                    <div className='skill'>
+                        <ReactJs color="#61DAFB" size={100} />
                         <p>ReactJs</p>
                     </div>
-                    <div style={{display:'inline-block', paddingInline:'25px'}}>
-                    <Redux color="#764ABC" size={80} />
+                    <div className='skill'>
+                    <Redux color="#764ABC" size={100} />
                         <p>Redux</p>
                     </div>
-                    <div style={{display:'inline-block', paddingInline:'25px'}}>
-                        <C color='red' size={80}/>
+                    <div className='skill'>
+                        <C color='red' size={100}/>
                         <p>C</p>
                     </div>
-                    <div style={{display:'inline-block', paddingInline:'25px'}}>
-                        <Nodedotjs color='#81C147' size={80}/>
+                    <div className='skill'>
+                        <Nodedotjs color='#81C147' size={100}/>
                         <p>NodeJs</p>
                     </div>
                 </div>
-            <h1 className="contentTitle">
-                PortFolio
-            </h1>
+
+            <h1 className="contentTitle">PortFolio</h1>
+
             <div>
-                <div style={{ display:'inline-block', backgroundColor:'whitesmoke', width:'300px', height:'300px', borderRadius:'30px', margin:'15px' }}>
+                <article>
                     <h2>일차함수 그래프</h2>
                     <p>일차함수를 2점만 입력하여 알아보자!</p>
-                    <img style={{width:'280px'}} src="https://github.com/DONGHAEY/IlchaFunction/raw/main/%EA%B2%B0%EA%B3%BC%EB%AC%BC.png"></img>
+                    <img src="https://github.com/DONGHAEY/IlchaFunction/raw/main/%EA%B2%B0%EA%B3%BC%EB%AC%BC.png"></img>
                     <div><a href="https://github.com/DONGHAEY/IlchaFunction">주소</a></div>   
-                </div>
-                <div style={{display:'inline-block', backgroundColor:'whitesmoke', width:'300px', height:'300px', borderRadius:'30px', margin:'15px'}}>
+                </article>
+                <article>
                     <h2>전자픽셀노트</h2>
                     <p>심리치료플랫폼</p>
-                    <img style={{width:'280px'}} src="./ㅇㅇ.png"></img>
+                    <img src="./ㅇㅇ.png"></img>
                     <div><a href="https://docs.google.com/presentation/d/1eCiHFtp4ikyhxNhz3ab1qWk_5yWj4re7YQD5OTaqfQs/edit#slide=id.g133db928879_0_1">주소</a></div>
-                </div>
-                <div style={{display:'inline-block', backgroundColor:'whitesmoke', width:'300px', height:'300px', borderRadius:'30px', margin:'15px'}}>
+                </article>
+                <article>
                     <h2>코로나백신접종위치</h2>
                     <p>간편하게 전국적으로 어디에 있는지 확인</p>
-                    <img style={{width:'280px'}} src="./coronaVaccineD.png"></img>
+                    <img src="./coronaVaccineD.png"></img>
                     <div><a href="https://github.com/DONGHAEY/sideProject-2021/blob/main/www/coronavaccine/index.html">주소</a></div>
-                </div>
-                
+                </article>
             </div>
             <h1>My Github</h1>
             <button onClick={() => {
                 document.location.href = "https://github.com/DONGHAEY"
-            }} style={{backgroundColor:'black', color:'white', width:'150px'}}>깃허브로 이동하기</button>
+            }} className='githubButton'>깃허브로 이동하기</button>
         </div>
     )
 }
