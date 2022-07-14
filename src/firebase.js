@@ -2,15 +2,15 @@ import firebase from "firebase/compat/app"
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    // firebase 설정과 관련된 개인 정보
-    apiKey: "AIzaSyCBM7ecQNzGEpPxdIEmksonxJW3huTsZDM",
-    authDomain: "dd35-5b467.firebaseapp.com",
-    projectId: "dd35-5b467",
-    storageBucket: "dd35-5b467.appspot.com",
-    messagingSenderId: "228664502776",
-    appId: "1:228664502776:web:9a4d00d1ac5841697c4e0d",
-    measurementId: "G-SH60JGP8RT"
-};
+    apiKey: "AIzaSyAwjuDi1SZUSJItqECA9pNpAfebz0nP_JU",
+    authDomain: "hackerton-a43ff.firebaseapp.com",
+    databaseURL: "https://hackerton-a43ff-default-rtdb.firebaseio.com",
+    projectId: "hackerton-a43ff",
+    storageBucket: "hackerton-a43ff.appspot.com",
+    messagingSenderId: "370224362820",
+    appId: "1:370224362820:web:1dd959d7ecc0cccd0c1311",
+    measurementId: "G-SXZ7S9CDKH"
+  };
 
 // firebaseConfig 정보로 firebase 시작
 firebase.initializeApp(firebaseConfig);
